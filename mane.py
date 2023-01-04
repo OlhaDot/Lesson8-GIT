@@ -1,9 +1,4 @@
-def mane_function(a, b):
-    if a == b:
-        print("a=b")
-    elif a>b:
-        print("a>b")
-    else:
-        print("other situation")
+def test_function():
+    print("new function in Test branch")
 
-mane_function(3,5)
+test_function()
